@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="flex h-full flex-col">
       <Header />
-      <div className="container mx-auto flex-1 p-6">
+      <div className="container mx-auto flex-1 p-4">
         {/* <BannerSlider /> */}
         <div className="flex flex-col gap-2">
           {data.map((item) => (
