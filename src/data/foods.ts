@@ -5,7 +5,7 @@ export const foods: FoodType[] = [
     id: 1,
     name: "Pizza de Atum",
     slug: "pizza-de-atum",
-    price: {
+    prices: {
       broto: 26,
       media: 31,
       grande: 37,
@@ -19,7 +19,7 @@ export const foods: FoodType[] = [
     id: 2,
     name: "Pizza de Bacon",
     slug: "pizza-de-bacon",
-    price: {
+    prices: {
       broto: 27,
       media: 30,
       grande: 36,
@@ -33,7 +33,7 @@ export const foods: FoodType[] = [
     id: 3,
     name: "Pizza Baiana",
     slug: "pizza-baiana",
-    price: {
+    prices: {
       broto: 28,
       media: 32,
       grande: 39,
@@ -47,7 +47,7 @@ export const foods: FoodType[] = [
     id: 4,
     name: "Pizza Champignon",
     slug: "pizza-champignon",
-    price: {
+    prices: {
       broto: 26,
       media: 29,
       grande: 33,
@@ -61,7 +61,7 @@ export const foods: FoodType[] = [
     id: 5,
     name: "Pizza de Calabresa",
     slug: "pizza-de-calabresa",
-    price: {
+    prices: {
       broto: 26,
       media: 31,
       grande: 37,
@@ -75,7 +75,7 @@ export const foods: FoodType[] = [
     id: 6,
     name: "Pizza de Camarão",
     slug: "pizza-de-camarao",
-    price: {
+    prices: {
       broto: 30,
       media: 35,
       grande: 42,
@@ -89,7 +89,7 @@ export const foods: FoodType[] = [
     id: 7,
     name: "Camarão com catupiry",
     slug: "pizza-de-camarao-catupiry",
-    price: {
+    prices: {
       broto: 32,
       media: 37,
       grande: 44,
@@ -103,7 +103,7 @@ export const foods: FoodType[] = [
     id: 8,
     name: "Pizza de Carne do Sol",
     slug: "pizza-de-carne-do-sol",
-    price: {
+    prices: {
       broto: 28,
       media: 32,
       grande: 39,
@@ -117,7 +117,7 @@ export const foods: FoodType[] = [
     id: 9,
     name: "Carne do Sol com Chease",
     slug: "pizza-de-carne-do-sol-chease",
-    price: {
+    prices: {
       broto: 29,
       media: 34,
       grande: 41,
@@ -131,7 +131,7 @@ export const foods: FoodType[] = [
     id: 10,
     name: "Pizza de Frango",
     slug: "pizza-de-frango",
-    price: {
+    prices: {
       broto: 25,
       media: 29,
       grande: 35,
@@ -145,7 +145,7 @@ export const foods: FoodType[] = [
     id: 11,
     name: "Frango com Catupiry",
     slug: "pizza-de-frango",
-    price: {
+    prices: {
       broto: 28,
       media: 33,
       grande: 39,
@@ -159,7 +159,7 @@ export const foods: FoodType[] = [
     id: 12,
     name: "Pizza Marguerita",
     slug: "pizza-marguerita",
-    price: {
+    prices: {
       broto: 27,
       media: 30,
       grande: 36,
@@ -173,7 +173,7 @@ export const foods: FoodType[] = [
     id: 13,
     name: "Pizza de Mussarela",
     slug: "pizza-de-mussarela",
-    price: {
+    prices: {
       broto: 25,
       media: 29,
       grande: 35,
@@ -186,7 +186,7 @@ export const foods: FoodType[] = [
     id: 14,
     name: "Pizza Mista",
     slug: "pizza-mista",
-    price: {
+    prices: {
       broto: 26,
       media: 31,
       grande: 37,
@@ -200,7 +200,7 @@ export const foods: FoodType[] = [
     id: 15,
     name: "Pizza Napolitana",
     slug: "pizza-napolitana",
-    price: {
+    prices: {
       broto: 25,
       media: 30,
       grande: 36,
@@ -214,7 +214,7 @@ export const foods: FoodType[] = [
     id: 16,
     name: "Pizza Portuguesa",
     slug: "pizza-portuguesa",
-    price: {
+    prices: {
       broto: 28,
       media: 32,
       grande: 39,
@@ -228,7 +228,7 @@ export const foods: FoodType[] = [
     id: 17,
     name: "Pizza Quatro Queijos",
     slug: "pizza-quatro-queijos",
-    price: {
+    prices: {
       broto: 29,
       media: 34,
       grande: 41,
@@ -242,7 +242,7 @@ export const foods: FoodType[] = [
     id: 18,
     name: "Pizza Três Queijos",
     slug: "pizza-tres-queijos",
-    price: {
+    prices: {
       broto: 28,
       media: 33,
       grande: 40,
@@ -256,7 +256,7 @@ export const foods: FoodType[] = [
     id: 19,
     name: "Pizza Italiana",
     slug: "pizza-italiana",
-    price: {
+    prices: {
       broto: 28,
       media: 33,
       grande: 40,
@@ -270,7 +270,7 @@ export const foods: FoodType[] = [
     id: 20,
     name: "Pizza Moda da Casa",
     slug: "pizza-moda-da-casa",
-    price: {
+    prices: {
       broto: 32,
       media: 37,
       grande: 42,
@@ -284,7 +284,7 @@ export const foods: FoodType[] = [
     id: 21,
     name: "Pizza de Palmito",
     slug: "pizza-de-palmito",
-    price: {
+    prices: {
       broto: 26,
       media: 32,
       grande: 38,
@@ -297,7 +297,7 @@ export const foods: FoodType[] = [
     id: 22,
     name: "Rúcula com Tomate Seco",
     slug: "pizza-rucula",
-    price: {
+    prices: {
       broto: 30,
       media: 35,
       grande: 41,
@@ -310,7 +310,7 @@ export const foods: FoodType[] = [
     id: 23,
     name: "Pizza de Banana",
     slug: "pizza-de-banana",
-    price: {
+    prices: {
       broto: 28,
       media: 32,
       grande: 39,
@@ -322,7 +322,7 @@ export const foods: FoodType[] = [
     id: 24,
     name: "Chocolate Tradicional",
     slug: "pizza-de-chocolate",
-    price: {
+    prices: {
       broto: 30,
       media: 34,
       grande: 41,
@@ -334,7 +334,7 @@ export const foods: FoodType[] = [
     id: 25,
     name: "Pizza de prestígio",
     slug: "pizza-de-prestigio",
-    price: {
+    prices: {
       broto: 32,
       media: 36,
       grande: 43,
@@ -346,7 +346,7 @@ export const foods: FoodType[] = [
     id: 26,
     name: "Pizza de Mm's",
     slug: "pizza-de-mms",
-    price: {
+    prices: {
       broto: 32,
       media: 36,
       grande: 43,

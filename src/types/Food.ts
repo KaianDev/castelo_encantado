@@ -2,11 +2,12 @@ export type FoodType = {
   id: number;
   name: string;
   slug: string;
-  price: {
+  prices?: {
     broto: number;
     media: number;
     grande: number;
   };
+  price?: number;
   category: string;
   description?: string;
   image: string;
