@@ -6,9 +6,9 @@ const CartMenu = () => {
     <Sheet>
       <SheetTrigger>
         <div className="relative">
-          <ShoppingCart size={40} />
-          <div className=" absolute -bottom-2 -right-2 flex h-6 w-6 items-center justify-center rounded-full bg-red-castle text-sm text-white">
-            20
+          <ShoppingCart size={30} />
+          <div className=" absolute -bottom-2 -right-2 flex h-[20px] w-[20px] items-center justify-center rounded-full bg-red-castle text-xs font-normal text-white">
+            20 
           </div>
         </div>
       </SheetTrigger>

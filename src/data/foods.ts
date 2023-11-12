@@ -1,6 +1,6 @@
-import { PizzaType } from "@/types/Pizza";
+import { FoodType } from "@/types/Food";
 
-export const pizzas: PizzaType[] = [
+export const foods: FoodType[] = [
   {
     id: 1,
     name: "Pizza de Atum",
@@ -208,7 +208,7 @@ export const pizzas: PizzaType[] = [
     category: "Pizza",
     description:
       "Molho de tomate, muçarela, parmesão, tomate, orégano, cebola, azeitona, bacon e pimenta",
-    image: "/foods/Sem-titulo-min-8.jpg.webp",
+    image: "/foods/napolitana.webp",
   },
   {
     id: 16,

@@ -20,7 +20,7 @@ const Header = () => {
               width={0}
               height={0}
               sizes="100vw"
-              className="h-20 w-auto "
+              className="h-14 w-auto "
             />
           </Link>
           <CartMenu />

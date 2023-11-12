@@ -1,4 +1,4 @@
-import { pizzas } from "@/data/pizzas";
+import { pizzas } from "@/data/foods";
 
 type ProductPageProps = {
   params: {
@@ -7,7 +7,6 @@ type ProductPageProps = {
 };
 
 const ProductPage = ({ params }: ProductPageProps) => {
-    
   return <div>...</div>;
 };
 
