@@ -1,26 +1,18 @@
-import Image from "next/image";
-import Header from "./components/Header";
-import BannerSlider from "./components/BannerSlider";
 import { pizzas } from "@/data/pizzas";
-import { ChevronRightIcon } from "lucide-react";
-import Link from "next/link";
 import { CardItem } from "./components/CardItem";
+import BannerSlider from "./components/BannerSlider";
 
 export default function Home() {
-  const data = pizzas;
+  const data = pizzas.filter((item) => item.category === "Pizza");
 
   return (
-    <div className="flex h-full flex-col">
-      <Header />
-      <div className="container mx-auto flex-1 p-4">
-        {/* <BannerSlider /> */}
-        <div className="flex flex-col gap-2">
-          {data.map((item) => (
-            <CardItem item={item} />
-          ))}
-        </div>
+    <div className="container mx-auto flex flex-col gap-4 py-4">
+      <BannerSlider />
+      <div className="flex flex-col gap-2">
+        {data.map((item) => (
+          <CardItem key={item.id} item={item} />
+        ))}
       </div>
-      <footer>Um footer...</footer>
     </div>
   );
 }
