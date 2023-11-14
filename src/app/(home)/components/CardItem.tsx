@@ -24,7 +24,7 @@ export const CardItem = ({ item }: Prop) => {
           className="h-16 w-24 rounded-lg object-cover"
         />
         <div className="flex flex-col justify-between">
-          <p className="max-w-[110px] text-base font-bold leading-[1] group-hover:text-white">
+          <p className="max-w-[115px] text-base font-bold leading-[1] group-hover:text-white">
             {item.name}
           </p>
           <p className="w-max rounded-full bg-red-castle px-2 text-xs font-semibold text-white group-hover:bg-white group-hover:text-red-castle">
