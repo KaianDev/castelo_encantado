@@ -13,7 +13,7 @@ export const CardItem = ({ item }: Prop) => {
       <div
         title={item.name}
         key={item.id}
-        className="group flex w-full gap-4 rounded-lg p-2 duration-200 ease-in hover:cursor-pointer hover:bg-red-castle"
+        className="group flex w-full gap-4 rounded-lg p-2 duration-200 ease-in hover:cursor-pointer hover:bg-red-castle bg-white"
       >
         <Image
           src={item.image}
